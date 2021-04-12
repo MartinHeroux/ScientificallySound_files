@@ -1,0 +1,14 @@
+---
+variables:
+  classoption:
+    - twocolumn
+  pagestyle:
+    - headings
+  papersize:
+    - a4
+  fontfamily: arev
+  number-section: True
+toc: True
+toc-depth: 2
+bibliography: ref_list.bib
+...
