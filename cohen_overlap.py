@@ -4,7 +4,7 @@ from scipy.stats import norm
 
 ctl_mean = 50
 sd = 15
-cohen_d = [0.2, 0.5, 0.8]
+cohen_d = [0.5]
 
 ctl_x = np.linspace(0, 100, 500)
 ctl_y = norm.pdf(ctl_x, loc=50, scale=sd)
