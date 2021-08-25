@@ -61,7 +61,7 @@ if __name__ == "__main__":
         
         USAGE:
         
-        $ python fitness_argparse.py --initials MH --weight 70 --height 1.75 --age 40 --systolic 135 --diastolic 82
+        $ python fitness_argparse.py 70 1.75 --age 40 --systolic 135 --diastolic 82
         """
     parser = ArgumentParser(description=USAGE)
     parser.add_argument(
